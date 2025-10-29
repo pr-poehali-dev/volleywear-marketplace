@@ -7,10 +7,10 @@ const Delivery = () => {
     <div className="min-h-screen flex flex-col">
       <Header />
       
-      <section className="py-12 bg-muted">
+      <section className="py-20 bg-gradient-to-r from-primary/10 via-secondary/10 to-primary/10 mt-20">
         <div className="container mx-auto px-4">
-          <h1 className="text-5xl font-bold mb-4">Доставка и оплата</h1>
-          <p className="text-muted-foreground text-lg">Информация о способах доставки и оплаты заказов</p>
+          <h1 className="text-5xl md:text-6xl font-bold mb-4 animate-fade-in">Доставка и оплата</h1>
+          <p className="text-muted-foreground text-xl">Быстрая доставка по всей России</p>
         </div>
       </section>
 

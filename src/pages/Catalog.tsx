@@ -12,75 +12,111 @@ const Catalog = () => {
   const products = [
     {
       id: 1,
-      name: 'ASICS Sky Elite FF 2',
+      name: 'ASICS Sky Elite FF 3',
       category: 'Обувь',
-      price: '14 990 ₽',
-      image: 'https://cdn.poehali.dev/projects/45eee7c8-bd47-45a6-a88a-94c3eac2b1de/files/cb035248-c265-4500-ad24-2c2a38da3214.jpg',
-      description: 'Профессиональные кроссовки для волейбола с технологией FlyteFoam',
+      price: '15 990 ₽',
+      image: 'https://cdn.poehali.dev/projects/45eee7c8-bd47-45a6-a88a-94c3eac2b1de/files/53b5d5b1-5af0-4af9-9c5a-e589308f9220.jpg',
+      description: 'Топ 2025! FlyteFoam амортизация, TRUSSTIC стабильность',
       isNew: true
     },
     {
       id: 2,
-      name: 'Mizuno Wave Momentum 3',
+      name: 'Mizuno Wave Lightning Neo 2',
       category: 'Обувь',
-      price: '13 490 ₽',
-      image: 'https://cdn.poehali.dev/projects/45eee7c8-bd47-45a6-a88a-94c3eac2b1de/files/cb035248-c265-4500-ad24-2c2a38da3214.jpg',
-      description: 'Топовая модель с технологией Wave для максимальной стабильности',
-      isNew: false
+      price: '14 490 ₽',
+      image: 'https://cdn.poehali.dev/projects/45eee7c8-bd47-45a6-a88a-94c3eac2b1de/files/53b5d5b1-5af0-4af9-9c5a-e589308f9220.jpg',
+      description: 'Легчайшая модель с технологией MIZUNO ENERZY',
+      isNew: true
     },
     {
       id: 3,
-      name: 'Nike Zoom HyperAce 2',
+      name: 'Nike Zoom HyperAce 3',
       category: 'Обувь',
-      price: '11 990 ₽',
-      image: 'https://cdn.poehali.dev/projects/45eee7c8-bd47-45a6-a88a-94c3eac2b1de/files/cb035248-c265-4500-ad24-2c2a38da3214.jpg',
-      description: 'Легкие кроссовки с отличным сцеплением',
-      isNew: true
+      price: '12 990 ₽',
+      image: 'https://cdn.poehali.dev/projects/45eee7c8-bd47-45a6-a88a-94c3eac2b1de/files/53b5d5b1-5af0-4af9-9c5a-e589308f9220.jpg',
+      description: 'Проверенная классика с улучшенным сцеплением',
+      isNew: false
     },
     {
       id: 4,
-      name: 'Adidas Crazyflight',
+      name: 'Adidas Crazyflight Mid',
       category: 'Обувь',
-      price: '12 490 ₽',
-      image: 'https://cdn.poehali.dev/projects/45eee7c8-bd47-45a6-a88a-94c3eac2b1de/files/cb035248-c265-4500-ad24-2c2a38da3214.jpg',
-      description: 'Инновационная модель для быстрых перемещений',
-      isNew: false
+      price: '13 290 ₽',
+      image: 'https://cdn.poehali.dev/projects/45eee7c8-bd47-45a6-a88a-94c3eac2b1de/files/53b5d5b1-5af0-4af9-9c5a-e589308f9220.jpg',
+      description: 'Высокая поддержка голеностопа + технология Boost',
+      isNew: true
     },
     {
       id: 5,
-      name: 'Форма игровая Mizuno',
-      category: 'Одежда',
-      price: '4 990 ₽',
-      image: 'https://cdn.poehali.dev/projects/45eee7c8-bd47-45a6-a88a-94c3eac2b1de/files/19725c39-ba96-4913-9df0-4c4a30c2b40e.jpg',
-      description: 'Дышащая форма с технологией отвода влаги',
-      isNew: false
+      name: 'Under Armour Highlight Ace',
+      category: 'Обувь',
+      price: '11 990 ₽',
+      image: 'https://cdn.poehali.dev/projects/45eee7c8-bd47-45a6-a88a-94c3eac2b1de/files/53b5d5b1-5af0-4af9-9c5a-e589308f9220.jpg',
+      description: 'Инновационная подошва для прыжков',
+      isNew: true
     },
     {
       id: 6,
-      name: 'Майка Adidas Volleyball',
+      name: 'Комплект формы Nike Dri-FIT',
       category: 'Одежда',
-      price: '2 490 ₽',
-      image: 'https://cdn.poehali.dev/projects/45eee7c8-bd47-45a6-a88a-94c3eac2b1de/files/19725c39-ba96-4913-9df0-4c4a30c2b40e.jpg',
-      description: 'Легкая майка для тренировок и игр',
-      isNew: true
-    },
-    {
-      id: 7,
-      name: 'Шорты ASICS Court',
-      category: 'Одежда',
-      price: '2 990 ₽',
-      image: 'https://cdn.poehali.dev/projects/45eee7c8-bd47-45a6-a88a-94c3eac2b1de/files/19725c39-ba96-4913-9df0-4c4a30c2b40e.jpg',
-      description: 'Удобные шорты для максимальной свободы движений',
+      price: '8 990 ₽',
+      image: 'https://cdn.poehali.dev/projects/45eee7c8-bd47-45a6-a88a-94c3eac2b1de/files/1fe09161-ed01-4bf7-ae84-e40d3457817a.jpg',
+      description: 'Майка + шорты с отводом влаги',
       isNew: false
     },
     {
-      id: 8,
-      name: 'Наколенники Mizuno',
-      category: 'Аксессуары',
-      price: '1 490 ₽',
-      image: 'https://cdn.poehali.dev/projects/45eee7c8-bd47-45a6-a88a-94c3eac2b1de/files/19725c39-ba96-4913-9df0-4c4a30c2b40e.jpg',
-      description: 'Защита коленей с анатомической формой',
+      id: 7,
+      name: 'Форма Mizuno Premium',
+      category: 'Одежда',
+      price: '9 490 ₽',
+      image: 'https://cdn.poehali.dev/projects/45eee7c8-bd47-45a6-a88a-94c3eac2b1de/files/1fe09161-ed01-4bf7-ae84-e40d3457817a.jpg',
+      description: 'Профессиональная форма с Ice Touch технологией',
       isNew: true
+    },
+    {
+      id: 8,
+      name: 'Майка ASICS Gel-Cool',
+      category: 'Одежда',
+      price: '3 990 ₽',
+      image: 'https://cdn.poehali.dev/projects/45eee7c8-bd47-45a6-a88a-94c3eac2b1de/files/1fe09161-ed01-4bf7-ae84-e40d3457817a.jpg',
+      description: 'Охлаждающая технология для жарких залов',
+      isNew: true
+    },
+    {
+      id: 9,
+      name: 'Шорты Adidas Court',
+      category: 'Одежда',
+      price: '3 490 ₽',
+      image: 'https://cdn.poehali.dev/projects/45eee7c8-bd47-45a6-a88a-94c3eac2b1de/files/1fe09161-ed01-4bf7-ae84-e40d3457817a.jpg',
+      description: 'Эластичные шорты с технологией Climalite',
+      isNew: false
+    },
+    {
+      id: 10,
+      name: 'Наколенники McDavid Hex',
+      category: 'Аксессуары',
+      price: '2 990 ₽',
+      image: 'https://cdn.poehali.dev/projects/45eee7c8-bd47-45a6-a88a-94c3eac2b1de/files/6056fd56-44e8-4ab2-841d-5faddf6c57ca.jpg',
+      description: 'Защита с гексагональной структурой HEX',
+      isNew: true
+    },
+    {
+      id: 11,
+      name: 'Носки Mizuno Comfort',
+      category: 'Аксессуары',
+      price: '890 ₽',
+      image: 'https://cdn.poehali.dev/projects/45eee7c8-bd47-45a6-a88a-94c3eac2b1de/files/6056fd56-44e8-4ab2-841d-5faddf6c57ca.jpg',
+      description: 'Компрессионные носки с поддержкой свода',
+      isNew: false
+    },
+    {
+      id: 12,
+      name: 'Напульсники Nike Swoosh',
+      category: 'Аксессуары',
+      price: '590 ₽',
+      image: 'https://cdn.poehali.dev/projects/45eee7c8-bd47-45a6-a88a-94c3eac2b1de/files/6056fd56-44e8-4ab2-841d-5faddf6c57ca.jpg',
+      description: 'Классические впитывающие напульсники',
+      isNew: false
     }
   ];
 
@@ -92,10 +128,10 @@ const Catalog = () => {
     <div className="min-h-screen flex flex-col">
       <Header />
       
-      <section className="py-12 bg-muted">
+      <section className="py-20 bg-gradient-to-r from-primary/10 via-secondary/10 to-primary/10 mt-20">
         <div className="container mx-auto px-4">
-          <h1 className="text-5xl font-bold mb-4">Каталог товаров</h1>
-          <p className="text-muted-foreground text-lg">Профессиональная экипировка для волейбола</p>
+          <h1 className="text-5xl md:text-6xl font-bold mb-4 animate-fade-in">Каталог 2025</h1>
+          <p className="text-muted-foreground text-xl">Лучшая экипировка от Nike, ASICS, Mizuno, Adidas, Under Armour</p>
         </div>
       </section>
 

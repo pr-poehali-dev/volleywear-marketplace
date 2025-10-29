@@ -10,10 +10,10 @@ const Contacts = () => {
     <div className="min-h-screen flex flex-col">
       <Header />
       
-      <section className="py-12 bg-muted">
+      <section className="py-20 bg-gradient-to-r from-primary/10 via-secondary/10 to-primary/10 mt-20">
         <div className="container mx-auto px-4">
-          <h1 className="text-5xl font-bold mb-4">Контакты</h1>
-          <p className="text-muted-foreground text-lg">Свяжитесь с нами удобным способом</p>
+          <h1 className="text-5xl md:text-6xl font-bold mb-4 animate-fade-in">Контакты</h1>
+          <p className="text-muted-foreground text-xl">Мы всегда на связи — выбирайте удобный способ</p>
         </div>
       </section>
 

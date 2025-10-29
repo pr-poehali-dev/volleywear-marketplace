@@ -8,27 +8,27 @@ const Index = () => {
   const featuredProducts = [
     {
       id: 1,
-      name: 'Nike Zoom HyperAce 3',
+      name: 'Asics Gel-Rocket 11',
       category: 'Обувь',
-      price: '12 990',
-      image: 'https://cdn.poehali.dev/projects/45eee7c8-bd47-45a6-a88a-94c3eac2b1de/files/452347a1-0119-4ebe-bf70-6e29100efdc9.jpg',
-      badge: 'Хит 2025'
+      price: '7 990',
+      image: 'https://cdn.poehali.dev/projects/45eee7c8-bd47-45a6-a88a-94c3eac2b1de/files/6934cd00-ade6-45c6-9d0f-178df2f4f61e.jpg',
+      badge: 'Хит продаж'
     },
     {
       id: 2,
-      name: 'Mizuno Wave Lightning Neo',
+      name: 'Mizuno Wave Momentum 3',
       category: 'Обувь',
-      price: '11 490',
-      image: 'https://cdn.poehali.dev/projects/45eee7c8-bd47-45a6-a88a-94c3eac2b1de/files/452347a1-0119-4ebe-bf70-6e29100efdc9.jpg',
-      badge: 'Новинка'
+      price: '9 490',
+      image: 'https://cdn.poehali.dev/projects/45eee7c8-bd47-45a6-a88a-94c3eac2b1de/files/6934cd00-ade6-45c6-9d0f-178df2f4f61e.jpg',
+      badge: 'Профи выбор'
     },
     {
       id: 3,
-      name: 'Комплект формы ASICS',
+      name: 'Форма Nike Aeroswift',
       category: 'Одежда',
-      price: '8 990',
-      image: 'https://cdn.poehali.dev/projects/45eee7c8-bd47-45a6-a88a-94c3eac2b1de/files/c8b82121-4885-4cc0-9432-e7d1b0fe24bb.jpg',
-      badge: 'Топ продаж'
+      price: '5 990',
+      image: 'https://cdn.poehali.dev/projects/45eee7c8-bd47-45a6-a88a-94c3eac2b1de/files/7e8d72f4-9b6f-4170-bb79-0d8671a9fe79.jpg',
+      badge: 'Новинка 2025'
     }
   ];
 
@@ -64,7 +64,7 @@ const Index = () => {
           <div 
             className="absolute inset-0 bg-cover bg-center"
             style={{
-              backgroundImage: `url('https://cdn.poehali.dev/projects/45eee7c8-bd47-45a6-a88a-94c3eac2b1de/files/541e7223-d09f-4c9d-99fa-4d7bfd0b183d.jpg')`,
+              backgroundImage: `url('https://cdn.poehali.dev/projects/45eee7c8-bd47-45a6-a88a-94c3eac2b1de/files/3751ce88-ef52-4bc8-9e84-ddd04a1bfecd.jpg')`,
             }}
           >
             <div className="absolute inset-0 bg-gradient-to-r from-black/70 to-black/40" />
@@ -73,10 +73,10 @@ const Index = () => {
           <div className="container mx-auto px-4 relative z-10 text-white">
             <div className="max-w-2xl animate-fade-in">
               <h1 className="text-5xl md:text-7xl font-bold mb-6 leading-tight">
-                Экипировка для чемпионов
+                Экипировка для профи
               </h1>
               <p className="text-xl md:text-2xl mb-8 text-white/90">
-                Лучшая волейбольная обувь и одежда от мировых брендов. Новинки 2025 года.
+                Лучшая волейбольная обувь и одежда от мировых брендов: Asics, Mizuno, Nike, Adidas
               </p>
               <Link to="/catalog">
                 <Button size="lg" className="text-lg px-8 py-6 hover:scale-105 transition-transform">
