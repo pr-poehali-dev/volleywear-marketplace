@@ -1,10 +1,7 @@
-import { Link, useLocation } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import Icon from '@/components/ui/icon';
 
 const Header = () => {
-  const location = useLocation();
-  
-  const isActive = (path: string) => location.pathname === path;
   
   return (
     <header className="fixed top-0 left-0 right-0 z-50 bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60 border-b border-border">
@@ -20,33 +17,25 @@ const Header = () => {
           <nav className="hidden md:flex items-center gap-8">
             <Link 
               to="/" 
-              className={`text-sm font-medium transition-colors hover:text-primary ${
-                isActive('/') ? 'text-primary' : 'text-foreground/80'
-              }`}
+              className="text-sm font-medium transition-colors hover:text-primary text-foreground/80"
             >
               Главная
             </Link>
             <Link 
               to="/catalog" 
-              className={`text-sm font-medium transition-colors hover:text-primary ${
-                isActive('/catalog') ? 'text-primary' : 'text-foreground/80'
-              }`}
+              className="text-sm font-medium transition-colors hover:text-primary text-foreground/80"
             >
               Каталог
             </Link>
             <Link 
               to="/delivery" 
-              className={`text-sm font-medium transition-colors hover:text-primary ${
-                isActive('/delivery') ? 'text-primary' : 'text-foreground/80'
-              }`}
+              className="text-sm font-medium transition-colors hover:text-primary text-foreground/80"
             >
               Доставка
             </Link>
             <Link 
               to="/contacts" 
-              className={`text-sm font-medium transition-colors hover:text-primary ${
-                isActive('/contacts') ? 'text-primary' : 'text-foreground/80'
-              }`}
+              className="text-sm font-medium transition-colors hover:text-primary text-foreground/80"
             >
               Контакты
             </Link>
